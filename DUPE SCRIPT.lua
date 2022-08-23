@@ -48,7 +48,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ChaseOSDeveloper/dupe/main/dupeAlt.lua",true))()
+      		game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Boards.Board.Controls.Done.Part.CFrame while wait() do game.Players.LocalPlayer.Character.Humanoid.Jump = true end
   	end    
 })
 

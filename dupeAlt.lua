@@ -1,1 +1,1 @@
-game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Boards.Board.Controls.Done.Part.CFrame while wait() game.Players.LocalPlayer.Character.Humanoid.Jump = true end
+game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Boards.Board.Controls.Done.Part.CFrame while wait() do game.Players.LocalPlayer.Character.Humanoid.Jump = true end
